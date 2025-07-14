@@ -1,0 +1,57 @@
+.univ{
+    width: 100vw;
+    background-color: #fdecce;
+    margin: 0;
+}
+
+.univ h2{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    color: #181818;
+}
+
+.univ .comic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.univ .comic div{
+    background-color: #f4a710;
+    margin: 1rem;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px #f4a710;
+
+    
+}
+
+.comic div:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.univ .comic div img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+@media (min-width: 992px) {
+
+    .univ .comic{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
+}
+}

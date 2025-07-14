@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Saiyan Sans';
+  src: url('./fonts/Saiyan-Sans Right Oblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hero{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fdecce;
+    padding: 2rem 1rem;
+    margin-bottom: 0;
+}
+
+
+.hero h2 {
+  font-family: 'Saiyan Sans', sans-serif;
+  font-size: 2rem; /* Ajusta según tu diseño */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-top: 0.5rem
+}
+
+.hero .prodB {
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.hero .prodB button{
+    padding: 0.6rem;
+    border-radius: 8px;
+    
+}
+
+/* .hero .prodB button:hover{
+    background-color: ;
+} */
+
+
+button:active {
+  background-color: #f4a710;
+  color: black;
+}
+
+@media (min-width: 992px) {
+  .hero h2 {
+    font-size: 3.5rem;
+  }
+}
