@@ -8,16 +8,16 @@ export function Universe(){
             </h2>
             <div className="comic">
                 <div>
-                    <img src="/public/imgUniverse/esfera.png" alt="" />
+                    <img src="/imgUniverse/esfera.png" alt="" />
                 </div>
                 <div>
-                    <img src="/public/imgUniverse/poke.png" alt="" />
+                    <img src="/imgUniverse/poke.png" alt="" />
                 </div>
                 <div>
-                    <img src="/public/imgUniverse/oneP.png" alt="" />
+                    <img src="/imgUniverse/oneP.png" alt="" />
                 </div>
                 <div>
-                    <img src="/public/imgUniverse/hoja.webp" alt="" />
+                    <img src="/imgUniverse/hoja.webp" alt="" />
                 </div>
             </div>
 

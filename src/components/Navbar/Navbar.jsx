@@ -8,7 +8,7 @@ export default function NavbarF() {
     <Navbar fixed='top' sticky='top' expand="lg" className='Nav'>
       <Container className='contain'>
         <Navbar.Brand href="#home">
-            <img src="/public/logo.png" alt="logo Geek Store" />
+            <img src="/logo.png" alt="logo Geek Store" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
